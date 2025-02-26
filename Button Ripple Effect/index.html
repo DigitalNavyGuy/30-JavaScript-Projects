@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      href="./images/DigitalNavyGuy-32x32.png"
+      type="image/x-icon"
+    />
+    <script src="script.js" defer></script>
+    <title>Button Ripple Effect</title>
+  </head>
+  <body
+    class="m-0 flex justify-center h-[100vh] items-center bg-blue-200 font-sans"
+  >
+    <a
+      href="#"
+      class="btn bg-pink-500 py-5 px-10 rounded-md shadow-custom-light relative overflow-hidden before:content-[''] before:absolute before:bg-green-500 before:w-0 before:h-0 before:left-[var(--xPos)] before:top-[var(--yPos)] before:translate-x-[-50%] before:translate-y-[-50%] before:rounded-full before:transition-all duration-500 hover:before:w-[300px] hover:before:h-[300px]"
+      ><span class="relative z-10">Button</span></a
+    >
+  </body>
+</html>

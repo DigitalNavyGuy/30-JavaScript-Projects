@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-container img {
+  @apply m-[10px] rounded-[10px] shadow-custom-light bg-slate-300 w-[300px] h-[300px];
+}
